@@ -11,6 +11,7 @@ html
 
 body
 {   
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     margin: auto;
     width: 90%;
@@ -27,7 +28,37 @@ header, .main, footer
 
 header
 {
-    height: 20%;
+    height: 10%;
+}
+
+header nav
+{
+    height: 100%;
+    display: flex;
+    
+}
+
+header nav a
+{
+    display: flex;
+    width: 100%;
+    height: calc(100%-2px);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #252a34;
+    color: #08d9d6;
+    border: 2px solid #252a34;
+
+    /*Centro el texto*/
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header nav a:hover
+{
+    color: #ff2e63;
+    border: 2px solid #08d9d6;
 }
 
 .main
@@ -37,5 +68,5 @@ header
 
 footer
 {
-    height: 10%;
+    height: 20%;
 }
