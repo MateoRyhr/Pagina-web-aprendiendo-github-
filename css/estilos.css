@@ -66,6 +66,13 @@ header nav a:hover
     height: 70%;
 }
 
+.main article
+{
+    text-justify: auto;
+    text-align: center;
+    margin: 8% 25%;
+}
+
 footer
 {
     height: 20%;
