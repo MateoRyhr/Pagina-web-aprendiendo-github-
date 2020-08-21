@@ -63,7 +63,7 @@ header nav a:hover
 
 .main
 {
-    height: 70%;
+    height: 75%;
 }
 
 .main article
@@ -75,5 +75,12 @@ header nav a:hover
 
 footer
 {
-    height: 20%;
+    height: 15%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #252a34;
+    color: #eaeaea;
 }
