@@ -14,7 +14,7 @@ body
     font-family: 'Roboto', sans-serif;
     height: 100%;
     margin: auto;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #e6e6e6
@@ -78,9 +78,43 @@ footer
     height: 15%;
     display: flex;
 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     background-color: #252a34;
-    color: #eaeaea;
+    color: #636d74;
+}
+
+footer p
+{
+    margin-left: 2.5%;
+}
+
+footer .contact_us
+{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-right: 2.5%;
+
+    font-size: 0.85em;
+}
+
+footer .contact_us a
+{
+    width: 6%;
+}
+
+footer .contact_us a img
+{
+    width: 100%;
+    border: 1px solid #252a34;
+    border-radius: 25%;
+}
+
+footer .contact_us a img:hover
+{
+    border: 1px solid #636d74;
 }
