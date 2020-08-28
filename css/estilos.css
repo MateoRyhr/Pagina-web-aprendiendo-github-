@@ -38,6 +38,11 @@ header nav
     
 }
 
+header nav img
+{
+    width: 7%;
+}
+
 header nav a
 {
     display: flex;
